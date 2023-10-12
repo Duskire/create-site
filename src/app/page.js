@@ -7,19 +7,19 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   return (
-    <main className="dark">
+    <main className="min-h-screen bg-gradient-to-b from-background-600 to-background-900">
       {/* {Navbar()} */}
       <div className="flex text-center">
         <div className="absolute z-0">
           {/* {Particles()} */}
         </div>
-        <div className="relative z-1">
+        <div className="relative mx-auto z-1">
           <Image
             className="relative"
-            src="/dusklogo.svg"
-            alt="Duskire Logo"
-            width={108}
-            height={108}
+            src="/banner.svg"
+            alt="Duskire Banner"
+            width={480}
+            height={360}
             priority
           />
 
