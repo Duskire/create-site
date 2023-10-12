@@ -2,13 +2,13 @@
 
 import Image from 'next/image'
 import { useEffect, useState } from "react";
-// import Navbar from ".//components/navbar"
+import Navbar from ".//components/navbar"
 // import Particles from './/components/particles';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-background-600 to-background-900">
-      {/* {Navbar()} */}
+      {Navbar()}
       <div className="flex text-center">
         <div className="absolute z-0">
           {/* {Particles()} */}
@@ -20,9 +20,12 @@ export default function Home() {
             alt="Duskire Banner"
             width={480}
             height={360}
+            id="banner"
             priority
           />
-
+        </div>
+        <div className="">
+          
         </div>
       </div>
     </main>
