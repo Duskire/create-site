@@ -9,27 +9,42 @@ export default function Home() {
   return (
     <main className="min-h-screen justify-center bg-gradient-to-b from-background-600 to-background-900">
       {Navbar()}
-      <div className="flex text-center items-center">
+      <div className="flex flex-col text-center items-center">
         <div className="absolute z-0">
           {/* {Particles()} */}
         </div>
-        <div className="relative mx-auto p-40 z-2 object-center overflow-hidden pointer-events-none">
+        <div className="relative mt-40 mx-auto p-5 z-2 object-center overflow-hidden pointer-events-none">
           <Image className="relative transform hover:scale-120 priority" src="/banner.svg" alt="Duskire Banner" width={480} height={360} id="banner"/>
         </div>
-        <div className="">
+        <div className="flex flex-row">
+          <Image className="" src="/youtubeicon.svg" alt="youtube" width={50} height={50} id="social1"/>
+          <Image className="" src="/twitxicon.svg" alt="twitx" width={50} height={50} id="social2"/>
+          <Image className="" src="/twitchicon.svg" alt="twitch" width={50} height={50} id="social3"/>
+          <Image className="" src="/redditicon.svg" alt="reddit" width={50} height={50} id="social4"/>
+          <Image className="" src="/githubicon.svg" alt="github" width={50} height={50} id="social5"/>
+        </div>
+        <div className="relative mx-auto p-10 text-xl">
+          <div className=""> 
+            <hr className="p-2"/>
+            <span className=""></span>
+          </div>
+          <p className="relative text-text-300">Here are some of my current and upcoming projects</p>
           <div className="">
             <button className="">
-
+              This Site!
+              <Image className="" src="/publicicon.svg" alt="" width={30} height={30}/>
             </button>
           </div>
           <div className="">
             <button className="">
-
+              Coming Soon!
+              <Image className="" src="/scheduleicon.svg" alt="" width={30} height={30}/>
             </button>
           </div>
           <div className="">
             <button className="">
-              
+              Coming Soon!
+              <Image className="" src="/scheduleicon.svg" alt="" width={30} height={30}/>
             </button>
           </div>
         </div>

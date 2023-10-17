@@ -14,10 +14,10 @@ export default function Navbar(user, current_page) {
             <div className="max-w-screen-xl flex items-center justify-center mx-auto p-2">
                 <ul className="flex flex-row text-2xl">
                     <li>
-                        <a href="/" className="inline-block py-2 px-5 mya text-center text-text-200 rounded" id="home-button" value="Home">Home</a>
+                        <a href="/" className="inline-block py-2 px-5 mya text-center border-r-2 text-text-200 rounded" id="home-button" value="Home">Home</a>
                     </li>
                     <li>
-                        <a href="/projects" className="inline-block py-2 px-5  text-center text-text-200 rounded" id="projects-button" value="Projects">Projects</a>
+                        <a href="/projects" className="inline-block py-2 px-5  text-center border-r-2 text-text-200 rounded" id="projects-button" value="Projects">Projects</a>
                     </li>
                     <li>
                         <a href="/about" className="inline-block py-2 px-5 text-center text-text-200 rounded" id="about-button" value="About">About</a>
