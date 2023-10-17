@@ -17,11 +17,21 @@ export default function Home() {
           <Image className="relative transform hover:scale-120 priority" src="/banner.svg" alt="Duskire Banner" width={480} height={360} id="banner"/>
         </div>
         <div className="flex flex-row">
-          <Image className="" src="/youtubeicon.svg" alt="youtube" width={50} height={50} id="social1"/>
-          <Image className="" src="/twitxicon.svg" alt="twitx" width={50} height={50} id="social2"/>
-          <Image className="" src="/twitchicon.svg" alt="twitch" width={50} height={50} id="social3"/>
-          <Image className="" src="/redditicon.svg" alt="reddit" width={50} height={50} id="social4"/>
-          <Image className="" src="/githubicon.svg" alt="github" width={50} height={50} id="social5"/>
+          <a href="https://www.youtube.com/channel/UC6UMmFrvEXOQ9JptEpjSHpA" className="">
+            <Image className="border-box h-20 w-20 p-3" src="/youtubeicon.svg" alt="youtube" width={48} height={48} id="social1"/>
+          </a>
+          <a href="https://x.com/duskirelive" className="">
+            <Image className="border-box h-20 w-20 p-3" src="/twitxicon.svg" alt="twitx" width={48} height={48} id="social2"/>
+          </a>
+          <a href="https://www.twitch.tv/duskirelive" className="">
+            <Image className="border-box h-20 w-20 p-3" src="/twitchicon.svg" alt="twitch" width={48} height={48} id="social3"/>
+          </a>
+          <a href="https://www.reddit.com/user/DuskireLive" className="">
+            <Image className="border-box h-20 w-20 p-3" src="/redditicon.svg" alt="reddit" width={48} height={48} id="social4"/>
+          </a>
+          <a href="https://github.com/Duskire" className="">
+            <Image className="border-box h-20 w-20 p-3" src="/githubicon.svg" alt="github" width={48} height={48} id="social5"/>
+          </a>
         </div>
         <div className="relative mx-auto p-10 text-xl">
           <div className=""> 
