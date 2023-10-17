@@ -10,17 +10,17 @@ function NavLink({to, children}) {
 
 export default function Navbar(user, current_page) {
     return (
-        <nav className="fixed w-full z-2 top-0 left-0 h-48 bg-gradient-to-b from-background-700 pointer-events-none">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4 pointer-events-auto">
-                <ul className="flex flex-col text-lg">
+        <nav className="fixed rounded-b-lg w-400px z-2 top-0 left-0 h-16 bg-background-700">
+            <div className="max-w-screen-xl flex items-center justify-center mx-auto p-2">
+                <ul className="flex flex-row text-2xl">
                     <li>
-                        <NavLink to="/" className="block py-2 pl-3 pr-4 w-20 text-center text-text-200 rounded" id="home-button" value="Home">Home</NavLink>
+                        <a href="/" className="inline-block py-2 px-5 mya text-center text-text-200 rounded" id="home-button" value="Home">Home</a>
                     </li>
                     <li>
-                        <NavLink to="/projects" className="block py-2 pl-3 pr-4 w-20 text-center text-text-200 rounded" id="projects-button" value="Projects">Projects</NavLink>
+                        <a href="/projects" className="inline-block py-2 px-5  text-center text-text-200 rounded" id="projects-button" value="Projects">Projects</a>
                     </li>
                     <li>
-                        <NavLink to="/about" className="block py-2 pl-3 pr-4 w-20 text-center text-text-200 rounded" id="about-button" value="About">About</NavLink>
+                        <a href="/about" className="inline-block py-2 px-5 text-center text-text-200 rounded" id="about-button" value="About">About</a>
                     </li>
                 </ul>
             </div>

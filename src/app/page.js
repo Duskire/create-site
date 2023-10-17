@@ -3,29 +3,35 @@
 import Image from 'next/image'
 import { useEffect, useState } from "react";
 import Navbar from ".//components/navbar"
-// import Particles from './/components/particles';
+//import Particles from './/components/particles';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-background-600 to-background-900">
+    <main className="min-h-screen justify-center bg-gradient-to-b from-background-600 to-background-900">
       {Navbar()}
-      <div className="flex text-center">
+      <div className="flex text-center items-center">
         <div className="absolute z-0">
           {/* {Particles()} */}
         </div>
-        <div className="relative mx-auto z-1">
-          <Image
-            className="relative"
-            src="/banner.svg"
-            alt="Duskire Banner"
-            width={480}
-            height={360}
-            id="banner"
-            priority
-          />
+        <div className="relative mx-auto p-40 z-2 object-center overflow-hidden pointer-events-none">
+          <Image className="relative transform hover:scale-120 priority" src="/banner.svg" alt="Duskire Banner" width={480} height={360} id="banner"/>
         </div>
         <div className="">
-          
+          <div className="">
+            <button className="">
+
+            </button>
+          </div>
+          <div className="">
+            <button className="">
+
+            </button>
+          </div>
+          <div className="">
+            <button className="">
+              
+            </button>
+          </div>
         </div>
       </div>
     </main>
