@@ -9,6 +9,7 @@ import Particles from './/components/particles';
 export default function Home() {
   return (
     <main className="relative min-h-screen justify-center bg-gradient-to-tr from-background-600 from-10% via-background-300 via-30% to-background-900 to-90%">
+      <link rel="icon" href="favicon.svg"></link>
       {Navbar()}
       {Particles()}
       <div className="flex flex-col text-center items-center">
@@ -36,8 +37,8 @@ export default function Home() {
         <div className="relative mx-auto p-20 z-20 text-xl">
           <p className="block rounded-full p-2 text-text-200 bg-primary-700">I'm a programming student who has a lot to share with the world!</p>
           <hr className="my-5"/>
-          <p className="text-2xl p-2 text-text-50" id="projects"><b>Projects</b></p>
-          <h2 className="relative p-3 text-text-50">Here are some of my current and upcoming projects</h2>
+          <h2 className=" text-2xl -2 text-text-50" id="projects"><b>Projects</b></h2>
+          <p className="relative p-3 text-text-50">Here are some of my current and upcoming projects</p>
           <div className="flex flex-row items-center justify-center">
             <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
               <button className="inline-block p-3 rounded-xl bg-gradient-to-tl from-bg-secondary-600 from-10% via-bg-primary-300 via-40% to-bg-secondary-800 to-80% text-text-200 hover:text-text-400">
