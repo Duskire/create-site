@@ -1,6 +1,7 @@
 "use client"
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useEffect, useState } from "react";
 import Navbar from ".//components/navbar"
 import Particles from './/components/particles';
@@ -33,25 +34,25 @@ export default function Home() {
           </a>
         </div>
         <div className="relative mx-auto p-20 z-20 text-xl">
-          <p className="block rounded-full p-2 text-text-200 bg-primary-500">I'm a programming student who has a lot to share with the world!</p>
+          <p className="block rounded-full p-2 text-text-200 bg-primary-700">I'm a programming student who has a lot to share with the world!</p>
           <hr className="my-5"/>
-          <p className="text-2xl p-2 text-text-300" id="projects"><b>Projects</b></p>
-          <h2 className="relative p-3 text-text-300">Here are some of my current and upcoming projects</h2>
+          <p className="text-2xl p-2 text-text-50" id="projects"><b>Projects</b></p>
+          <h2 className="relative p-3 text-text-50">Here are some of my current and upcoming projects</h2>
           <div className="flex flex-row items-center justify-center">
             <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
-              <button className="inline-block p-3 rounded-xl text-text-200 bg-primary-700 hover:text-text-400">
+              <button className="inline-block p-3 rounded-xl bg-gradient-to-tl from-bg-secondary-600 from-10% via-bg-primary-300 via-40% to-bg-secondary-800 to-80% text-text-200 hover:text-text-400">
                 This Site!
                 <Image className="m-auto rounded-xl" src="/javascript.jpg" alt="Javascript Image" width={150} height={150}/>
               </button>
             </div>
             <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
-              <button className="inline-block p-3 rounded-xl text-text-200 bg-primary-700 hover:text-text-400">
+              <button className="inline-block p-3 rounded-xl bg-gradient-to-tl from-bg-secondary-600 from-10% via-bg-primary-300 via-40% to-bg-secondary-800 to-80% text-text-200 hover:text-text-400">
                 Coming Soon!
                 <Image className="m-auto rounded-xl" src="/comingsoon.jpg" alt="Coming Soon Image" width={150} height={150}/>
               </button>
             </div>
             <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
-              <button className="inline-block p-3 rounded-xl text-text-200 bg-primary-700 hover:text-text-400">
+              <button className="inline-block p-3 rounded-xl bg-gradient-to-tl from-bg-secondary-600 from-10% via-bg-primary-300 via-40% to-bg-secondary-800 to-80% text-text-200 hover:text-text-400">
                 Coming Soon!
                 <Image className="m-auto rounded-xl" src="/comingsoon.jpg" alt="Coming Soon Image" width={150} height={150}/>
               </button>

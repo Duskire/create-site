@@ -1,5 +1,7 @@
 "use client"
 
+import Image from 'next/image'
+import Link from 'next/link'
 import { useEffect } from "react";
 
 export default function Navbar(user, current_page) {
@@ -8,13 +10,13 @@ export default function Navbar(user, current_page) {
             <div className="flex items-center justify-center p-2">
                 <ul className="flex flex-row text-2xl">
                     <li>
-                        <a href="/" className="inline-block py-2 px-5 text-center rounded text-text-200 hover:text-text-600" id="home-button" value="Home">Home</a>
+                        <Link href="/" className="inline-block py-2 px-5 text-center rounded text-text-200 hover:text-text-600" id="home-button" value="Home">Home</Link>
                     </li>
                     <li>
-                        <a href="/#projects" className="inline-block py-2 px-5 text-center rounded border-r-2 text-text-200 hover:text-text-600" id="projects-button" value="Projects">Projects</a>
+                        <Link href="/#projects" className="inline-block py-2 px-5 text-center rounded border-r-2 text-text-200 hover:text-text-600" id="projects-button" value="Projects">Projects</Link>
                     </li>
                     <li>
-                        <a href="/about" className="inline-block py-2 px-5 text-center rounded text-text-200 hover:text-text-600" id="about-button" value="About">About</a>
+                        <Link href="/about" className="inline-block py-2 px-5 text-center rounded text-text-200 hover:text-text-600" id="about-button" value="About">About</Link>
                     </li>
                 </ul>
             </div>
