@@ -2,18 +2,17 @@
 
 import { useEffect } from "react";
 
-//https://rpj.bembi.dev/#bubbles
-//https://codepen.io/rkuai/pen/ExLbPWG
+//from https://codepen.io/rkuai/pen/ExLbPWG
 export default function Particles(user, current_page) {
     if (typeof window !== "undefined") {
         const sizes = [1,1,2,3,4];
 
         //get random position between 1 - 100;
         function randomPosition(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
+        return Math.floor(Math.random() * (max - min)) + min;
         }
 
-        for (let i = 0; i < 300; i++) {
+        for (let i = 0; i < 200; i++) {
         const top = randomPosition(1,100);
         const left = randomPosition(1,100);
         const random = Math.floor(Math.random() * sizes.length);
@@ -50,6 +49,6 @@ export default function Particles(user, current_page) {
 
 
     return (
-        <div className="relative p-20 z-1 pointer-events-none"></div>
+        <div className="relative z-10 pointer-events-none"></div>
     )
 }

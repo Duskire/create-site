@@ -2,15 +2,9 @@
 
 import { useEffect } from "react";
 
-function NavLink({to, children}) {
-    return <a href={to} className={`mx-4`}>
-        {children}
-    </a>
-}
-
 export default function Navbar(user, current_page) {
     return (
-        <nav className="absolute justify-center rounded-lg z-2 object-top top-2 inset-x-80 h-16 bg-primary-700 border-b-2 border-r-2 border-accent-500">
+        <nav className="absolute justify-center rounded-lg z-30 object-top top-2 inset-x-80 h-16 bg-primary-700 border-b-2 border-r-2 border-accent-500">
             <div className="flex items-center justify-center mx-auto p-2">
                 <ul className="flex flex-row text-2xl">
                     <li>
