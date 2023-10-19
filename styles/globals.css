@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 @keyframes float {
 	0% {
 		transform: translatey(0px);
@@ -30,6 +43,30 @@
 	100% {
 		transform: translatey(0px);
 	}
+}
+
+.star1 {
+  animation: 3s linear 1s infinite alternate twinkle;
+}
+
+.star2 {
+  animation: 4s linear 0s infinite alternate twinkle;
+}
+
+.star3 {
+  animation: 3.5s linear 0.5s infinite alternate twinkle;
+}
+
+.star4 {
+  animation: 1.25s linear 1.5s infinite alternate twinkle;
+}
+
+.star5 {
+  animation: 4s linear 2s infinite alternate twinkle;
+}
+
+.star6 {
+  animation: 2.5s linear 1s infinite alternate twinkle;
 }
 
 #banner {

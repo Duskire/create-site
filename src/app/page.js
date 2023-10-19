@@ -3,18 +3,16 @@
 import Image from 'next/image'
 import { useEffect, useState } from "react";
 import Navbar from ".//components/navbar"
-//import Particles from './/components/particles';
+import Particles from './/components/particles';
 
 export default function Home() {
   return (
-    <main className="min-h-screen justify-center bg-gradient-to-b from-background-600 to-background-900">
+    <main className="relative min-h-screen justify-center bg-gradient-to-b from-background-600 to-background-900">
       {Navbar()}
+      {Particles()}
       <div className="flex flex-col text-center items-center">
-        <div className="absolute z-0">
-          {/* {Particles()} */}
-        </div>
-        <div className="relative mt-40 mx-auto p-5 z-2 object-center overflow-hidden pointer-events-none">
-          <Image className="relative transform hover:scale-120 priority" src="/banner.svg" alt="Duskire Banner" width={480} height={360} id="banner"/>
+        <div className="relative mt-40 mx-auto p-5 z-2 pointer-events-none">
+          <Image className="relative" src="/banner.svg" alt="Duskire Banner" width={480} height={360} id="banner"/>
         </div>
         <div className="flex flex-row z-2">
           <a href="https://www.twitch.tv/duskirelive" className="">
