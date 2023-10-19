@@ -37,7 +37,7 @@ export default function Home() {
         <div className="relative mx-auto p-20 z-20 text-xl">
           <p className="block rounded-full p-2 text-text-200 bg-primary-700">I'm a programming student who has a lot to share with the world!</p>
           <hr className="my-5"/>
-          <h2 className=" text-2xl -2 text-text-50" id="projects"><b>Projects</b></h2>
+          <h2 className="relative text-2xl p-2 text-text-50" id="projects"><b>Projects</b></h2>
           <p className="relative p-3 text-text-50">Here are some of my current and upcoming projects</p>
           <div className="flex flex-row items-center justify-center">
             <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
