@@ -16,19 +16,19 @@ export default function Home() {
         </div>
         <div className="flex flex-row z-20">
           {/*from https://icons8.com/icon/set/social-media/pulsar-color */}
-          <a href="https://www.twitch.tv/duskirelive" className="">
+          <a href="https://www.twitch.tv/duskirelive" className="hover:scale-125 transition duration-500 cursor-pointer">
             <Image className="border-box h-20 w-20 p-3" src="/twitchicon.svg" alt="twitch" width={48} height={48} id="social1"/>
           </a>
-          <a href="https://www.youtube.com/@duskirelive" className="">
+          <a href="https://www.youtube.com/@duskirelive" className="hover:scale-125 transition duration-500 cursor-pointer">
             <Image className="border-box h-20 w-20 p-3" src="/youtubeicon.svg" alt="youtube" width={48} height={48} id="social2"/>
           </a>
-          <a href="https://www.x.com/duskirelive" className="">
+          <a href="https://www.x.com/duskirelive" className="hover:scale-125 transition duration-500 cursor-pointer">
             <Image className="border-box h-20 w-20 p-3" src="/twitxicon.svg" alt="twitterx" width={48} height={48} id="social3"/>
           </a>
-          <a href="https://www.reddit.com/user/DuskireLive" className="">
+          <a href="https://www.reddit.com/user/DuskireLive" className="hover:scale-125 transition duration-500 cursor-pointer">
             <Image className="border-box h-20 w-20 p-3" src="/redditicon.svg" alt="reddit" width={48} height={48} id="social4"/>
           </a>
-          <a href="https://www.github.com/Duskire" className="">
+          <a href="https://www.github.com/Duskire" className="hover:scale-125 transition duration-500 cursor-pointer">
             <Image className="border-box h-20 w-20 p-3" src="/githubicon.svg" alt="github" width={48} height={48} id="social5"/>
           </a>
         </div>
@@ -38,22 +38,22 @@ export default function Home() {
           <p className="text-2xl p-2 text-text-300" id="projects"><b>Projects</b></p>
           <h2 className="relative p-3 text-text-300">Here are some of my current and upcoming projects</h2>
           <div className="flex flex-row items-center justify-center">
-            <div className="p-3">
-              <button className="inline-block p-3 rounded outline hover:outline-offset-4 outline-accent-500 text-text-200 bg-primary-500 hover:text-text-400">
+            <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
+              <button className="inline-block p-3 rounded-xl text-text-200 bg-primary-700 hover:text-text-400">
                 This Site!
-                <Image className="mx-auto" src="/javascript.jpg" alt="Javascript Image" width={150} height={150}/>
+                <Image className="m-auto rounded-xl" src="/javascript.jpg" alt="Javascript Image" width={150} height={150}/>
               </button>
             </div>
-            <div className="p-3">
-              <button className="inline-block p-3 rounded text-text-200 bg-primary-500 hover:text-text-400">
+            <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
+              <button className="inline-block p-3 rounded-xl text-text-200 bg-primary-700 hover:text-text-400">
                 Coming Soon!
-                <Image className="mx-auto" src="/comingsoon.jpg" alt="Coming Soon Image" width={150} height={150}/>
+                <Image className="m-auto rounded-xl" src="/comingsoon.jpg" alt="Coming Soon Image" width={150} height={150}/>
               </button>
             </div>
-            <div className="p-3 hover:border-5 hover:border-accent-300">
-              <button className="inline-block p-3 rounded text-text-200 bg-primary-500 hover:text-text-400">
+            <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
+              <button className="inline-block p-3 rounded-xl text-text-200 bg-primary-700 hover:text-text-400">
                 Coming Soon!
-                <Image className="mx-auto" src="/comingsoon.jpg" alt="Coming Soon Image" width={150} height={150}/>
+                <Image className="m-auto rounded-xl" src="/comingsoon.jpg" alt="Coming Soon Image" width={150} height={150}/>
               </button>
             </div>
           </div>
