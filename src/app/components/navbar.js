@@ -4,8 +4,8 @@ import { useEffect } from "react";
 
 export default function Navbar(user, current_page) {
     return (
-        <nav className="absolute justify-center rounded-lg z-30 object-top top-2 inset-x-80 h-16 bg-primary-700 border-b-2 border-r-2 border-accent-500">
-            <div className="flex items-center justify-center mx-auto p-2">
+        <nav className="relative rounded-lg z-30 top-2 mx-auto overflow-hidden w-fit h-16 bg-primary-700 border-b-2 border-r-2 border-accent-500">
+            <div className="flex items-center justify-center p-2">
                 <ul className="flex flex-row text-2xl">
                     <li>
                         <a href="/" className="inline-block py-2 px-5 text-center rounded text-text-200 hover:text-text-600" id="home-button" value="Home">Home</a>
