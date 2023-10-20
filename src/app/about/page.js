@@ -25,10 +25,12 @@ export default function About() {
                         The site is built using the Next.js framework, and utilises various languages <br />
                         such as HTML, JavaScript, Tailwind CSS, and ReactJS</p>
                     </div>
-                    <div className="rounded-xl my-5 hover:scale-110 transition duration-500 cursor-pointer text-text-50 bg-primary-700 bg-opacity-70">
-                        <h2 className="p-2 text-2xl">Contact</h2>
-                        <p className="p-2">Email - duskirebusiness@gmail.com</p>
-                    </div>
+                    <a href="mailto:duskirebusiness@gmail.com" className=" decoration-text-100 hover:underline">
+                        <div className="rounded-xl my-5 hover:scale-110 transition duration-500 cursor-pointer text-text-50 bg-primary-700 bg-opacity-70">
+                            <h2 className="p-2 text-2xl">Contact</h2>
+                            <p className="p-2">Email - duskirebusiness@gmail.com</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </main>

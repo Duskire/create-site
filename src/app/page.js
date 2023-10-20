@@ -17,7 +17,7 @@ export default function Home() {
           <Image className="relative" src="/banner.svg" alt="Duskire Banner" width={480} height={360} id="banner"/>
         </div>
         <div className="flex flex-row z-20">
-          {/*from https://icons8.com/icon/set/social-media/pulsar-color */}
+          {/*from https://icons8.com/icon/set/social-media/pulsar-color*/}
           <a href="https://www.twitch.tv/duskirelive" className="hover:scale-125 transition duration-500 cursor-pointer">
             <Image className="border-box h-20 w-20 p-3" src="/twitchicon.svg" alt="twitch" width={48} height={48} id="social1"/>
           </a>
