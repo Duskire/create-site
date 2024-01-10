@@ -48,7 +48,9 @@ export default function Home() {
             </div>
             <div className="p-3 hover:scale-125 transition duration-500 cursor-pointer">
               <button className="inline-block p-3 rounded-xl bg-gradient-to-tl from-bg-secondary-600 from-10% via-bg-primary-300 via-40% to-bg-secondary-800 to-80% text-text-200 hover:text-text-400">
-                Coming Soon!
+                New Game (WIP)
+                <br/ >
+                Coming Eventually!
                 <Image className="m-auto rounded-xl" src="/comingsoon.jpg" alt="Coming Soon Image" width={150} height={150}/>
               </button>
             </div>
